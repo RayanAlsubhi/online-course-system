@@ -42,7 +42,7 @@ The Online Course System is a web-based application that allows students to enro
 2. Start **Apache** and **MySQL**
 3. Move project folder to: C:\xampp\htdocs\
 4. Open browser and go to:http://localhost/phpmyadmin
-5. 5. Create a database (or use your existing one)
+5. Create a database (or use your existing one)
 6. Import or create tables using phpMyAdmin or admin panel
 7. Run the project in browser: http://localhost/online-course-system
 
