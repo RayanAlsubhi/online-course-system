@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #eef2f7;
+    color: #2c3e50;
+}
+
+header {
+    background: linear-gradient(135deg, #0b3c5d, #1b6ca8);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background: #072c44;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #d4af37;
+    color: black;
+}
+
+.container {
+    max-width: 950px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border-top: 5px solid #0b3c5d;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0b3c5d;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #0b3c5d;
+    outline: none;
+    box-shadow: 0 0 6px rgba(11,60,93,0.2);
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #0b3c5d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #072c44;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+table th {
+    background: #0b3c5d;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+table tr:hover {
+    background: #f3f7ff;
+}
+
+ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 6px 0;
+}
+
+footer {
+    background: #072c44;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-home {
+    background: #072c44;
+    color: white;
+}
+
+.btn-home:hover {
+    background: #0b3c5d;
+}
+
+.btn-update {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-update:hover {
+    background: #1e8449;
+}
+
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 8px;
+    }
+
+    form input, form button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .container {
+        width: 95%;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+}
