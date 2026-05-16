@@ -47,5 +47,15 @@ The Online Course System is a web-based application that allows students to enro
 7. Run the project in browser: http://localhost/online-course-system
 
 
+---
+
+
+## 👨‍💻 Author
+Rayan-Alsubhi
+
+
+---
+
+
    ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
